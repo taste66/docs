@@ -1060,4 +1060,26 @@ These heating regulators have a [lot of registers](https://raw.githubusercontent
 1,F70304UUuu@i2:1,StellsignalRk1,%,CtrlSig_RK1,0
 #
 ```
+
+
+
+### Sagemcom X210 (Obis)
+
+>D  
+
+>B  
+->sensor53 r
+
+>M 1 
++1,3,o,0,115200,P1
+1,1-0:21.7.0(@1,Actual Power,kW,Power,2
+1,1-0:32.7.0(@1,Actual Voltage,V,Voltage,1
+1,1-0:31.7.0(@1,Actual Current,A,Current,2
+1,1-0:1.8.1(@1, Total tarif1,kW,Tarif1,2
+1,1-0:1.8.2(@1, Total tarif2,kW,Tarif2,2
+1,0-0:1.0.0(@#),Last update,,date
+# 
+
+```
 ------------------------------------------------------------------------------
+
